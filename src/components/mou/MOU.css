@@ -1,0 +1,63 @@
+.image1 img {
+  width: 350px;
+  height: 300px;
+}
+.image1 {
+  display: flex;
+  gap: 100px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.mou1 p {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.image2 img,
+.image3 img,
+.image4 img,
+.image5 img,
+.image6 img,
+.image7 img,
+.image8 img,
+.image9 img,
+.image10 img,
+.image11 img,
+.image12 img,
+.image13 img {
+  width: 350px;
+  height: 300px;
+}
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10,
+.image11,
+.image12,
+.image13 {
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.mou2 p,
+.mou3 p,
+.mou4 p,
+.mou5 p,
+.mou6 p,
+.mou7 p {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.video {
+  width: 400px;
+  height: 225px;
+  margin: 40px;
+  margin-left: 100px;
+}

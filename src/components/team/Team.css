@@ -1,0 +1,54 @@
+.bucha {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.bucha2 {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.bucha3 {
+  display: flex;
+  justify-content: center;
+}
+.bucha3 p {
+  width: 300px;
+}
+.bucha2 p {
+  width: 200px;
+}
+.bucha1 .img1 {
+  width: 200px;
+  height: 200px;
+}
+.bucha1 {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.bucha5 {
+  display: flex;
+  gap: 40px;
+
+  justify-content: center;
+}
+.bucha5 p {
+  width: 250px;
+}
+.bucha1 p {
+  width: 200px;
+}
+.img img {
+  width: 200px;
+  height: 200px;
+}
+.bucha p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 200px;
+  margin-right: 80px;
+}

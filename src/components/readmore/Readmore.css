@@ -1,0 +1,14 @@
+.read p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.gallary {
+  margin-left: 120px;
+}
+.gallary img {
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+  gap: 10px;
+}

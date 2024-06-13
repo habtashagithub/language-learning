@@ -1,0 +1,54 @@
+.langu {
+  align-items: center;
+  text-align: center;
+}
+.laa {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.langu .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 20px 20px;
+  transition: 0.5s;
+}
+.live img {
+  width: 120px;
+  height: 120px;
+}
+.langu .img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  position: relative;
+}
+
+.langu h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.langu span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1eb2a6;
+  border-radius: 5px;
+}
+.langu .box:hover {
+  background-color: #1eb2a6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.langu .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.langu .box:hover h1 {
+  color: #fff;
+}

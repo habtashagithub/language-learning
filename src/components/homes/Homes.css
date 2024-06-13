@@ -1,0 +1,228 @@
+.selected {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+h1 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+.primary-btnn {
+  background-color: rgb(60, 60, 65);
+  margin-bottom: 70px;
+  color: white;
+}
+.btns {
+  margin-right: 90px;
+}
+select {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: #4d5061;
+  color: white;
+  border: 0;
+}
+.select-box {
+  position: relative;
+}
+.icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #3b3c47;
+  display: block;
+  height: 100%;
+  width: 4em;
+  pointer-events: none;
+}
+.icon-container::before,
+.icon-container::after {
+  --size: 0.8em;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-container::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid rgba(255, 255, 255, 255);
+  top: 45%;
+}
+.icon-container::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid rgba(255, 255, 255, 255);
+  top: 75%;
+}
+
+.progres1 {
+  margin-left: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.p1 {
+  margin-top: 20px;
+}
+
+.p1 img {
+  width: 400px;
+  height: 300px;
+}
+.p1 h1 {
+  width: 300px;
+  color: #5c6664;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.p1 h1:hover {
+  color: rgb(92, 92, 202);
+}
+.p1 p {
+  color: rgb(29, 29, 43);
+  margin-left: 20px;
+  width: 300px;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.p1 span {
+  color: rgb(125, 127, 129);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.readmore {
+  color: rgb(14, 17, 214);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.readmore:hover {
+  color: rgb(214, 14, 64);
+}
+.progres2,
+.progres3,
+.progres4,
+.progres5,
+.progres6 {
+  margin-left: 70px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.languages p {
+  margin: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.list ul {
+  display: flex;
+
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.list li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  list-style: circle;
+}
+.para {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px;
+  margin-left: 40px;
+}
+.para p {
+  margin-top: 10px;
+}
+.para li {
+  list-style: circle;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.para ul {
+  margin-top: 10px;
+}
+.who,
+.whoo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.who1 img {
+  width: 300px;
+  height: 300px;
+}
+.who1 p {
+  width: 300px;
+}
+.who2 img {
+  width: 250px;
+  height: 250px;
+}
+.who2 p {
+  width: 300px;
+  color: rgb(8, 8, 8);
+}
+.speak {
+  display: flex;
+  margin-left: 30px;
+}
+.speak1 img {
+  width: 200px;
+  height: 200px;
+}
+.speaks h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.speaks {
+  margin-left: 10px;
+}
+.speaks p {
+  width: 300px;
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.why {
+  margin: 20px;
+  margin-left: 40px;
+}
+.why p {
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.quote p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  margin-left: 40px;
+}
+.quotes {
+  display: flex;
+  justify-content: space-around;
+}
+.quote h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 20px;
+  margin-left: 40px;
+}
+.quotes1 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 40px;
+}
+
+.quotes1 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 20px;
+  margin-left: 40px;
+}
